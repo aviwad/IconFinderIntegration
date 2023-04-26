@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FDB839629F8F3E900B60DDE /* IconPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB839529F8F3E900B60DDE /* IconPage.swift */; };
 		8FF5B95229F83C950053A392 /* IconFinderIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B95129F83C950053A392 /* IconFinderIntegrationApp.swift */; };
 		8FF5B95429F83C950053A392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B95329F83C950053A392 /* ContentView.swift */; };
 		8FF5B95629F83C960053A392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5B95529F83C960053A392 /* Assets.xcassets */; };
 		8FF5B95929F83C960053A392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5B95829F83C960053A392 /* Preview Assets.xcassets */; };
+		8FF5B96029F8413D0053A392 /* JsonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B95F29F8413D0053A392 /* JsonStruct.swift */; };
+		8FF5B96229F84F850053A392 /* CategoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B96129F84F850053A392 /* CategoryPage.swift */; };
+		8FF5B96429F863A30053A392 /* IconSetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B96329F863A30053A392 /* IconSetPage.swift */; };
+		8FF5B96629F878B50053A392 /* viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B96529F878B50053A392 /* viewmodel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8FDB839529F8F3E900B60DDE /* IconPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPage.swift; sourceTree = "<group>"; };
 		8FF5B94E29F83C950053A392 /* IconFinderIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFinderIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF5B95129F83C950053A392 /* IconFinderIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFinderIntegrationApp.swift; sourceTree = "<group>"; };
 		8FF5B95329F83C950053A392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8FF5B95529F83C960053A392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FF5B95829F83C960053A392 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FF5B95F29F8413D0053A392 /* JsonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonStruct.swift; sourceTree = "<group>"; };
+		8FF5B96129F84F850053A392 /* CategoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPage.swift; sourceTree = "<group>"; };
+		8FF5B96329F863A30053A392 /* IconSetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSetPage.swift; sourceTree = "<group>"; };
+		8FF5B96529F878B50053A392 /* viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewmodel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,13 @@
 		8FF5B95029F83C950053A392 /* IconFinderIntegration */ = {
 			isa = PBXGroup;
 			children = (
+				8FF5B95F29F8413D0053A392 /* JsonStruct.swift */,
 				8FF5B95129F83C950053A392 /* IconFinderIntegrationApp.swift */,
 				8FF5B95329F83C950053A392 /* ContentView.swift */,
+				8FF5B96129F84F850053A392 /* CategoryPage.swift */,
+				8FF5B96329F863A30053A392 /* IconSetPage.swift */,
+				8FDB839529F8F3E900B60DDE /* IconPage.swift */,
+				8FF5B96529F878B50053A392 /* viewmodel.swift */,
 				8FF5B95529F83C960053A392 /* Assets.xcassets */,
 				8FF5B95729F83C960053A392 /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF5B96229F84F850053A392 /* CategoryPage.swift in Sources */,
 				8FF5B95429F83C950053A392 /* ContentView.swift in Sources */,
+				8FF5B96629F878B50053A392 /* viewmodel.swift in Sources */,
+				8FF5B96429F863A30053A392 /* IconSetPage.swift in Sources */,
+				8FF5B96029F8413D0053A392 /* JsonStruct.swift in Sources */,
+				8FDB839629F8F3E900B60DDE /* IconPage.swift in Sources */,
 				8FF5B95229F83C950053A392 /* IconFinderIntegrationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
